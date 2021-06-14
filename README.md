@@ -1,6 +1,6 @@
 # Employeee Management System
 
-*This is a full stack web development project on Employee Management System. The goal is to build a employee management software that will be used by startup's and mnc's which will be a one stop solution to all employee/ adminstration need's*
+*This is a full stack web development project on Employee Management System. The goal is to build a employee management software that will be used by startups and mncs which will be a one stop solution to all employee/ adminstration need's*
 
 # Tech Stack
 *Project Management: 	Trello Board  <br/>*
