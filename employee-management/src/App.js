@@ -1,9 +1,11 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import LandingPage from "./Front-end/pages/landing_page";
 
 function App() {
   return (
     <div className="App">
-      <h1>Employee Management System</h1>
+      <LandingPage />
     </div>
   );
 }
