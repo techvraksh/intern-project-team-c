@@ -1,0 +1,10 @@
+.loginpage {
+  display: flex;
+  flex-direction: row;
+}
+.name {
+  display: flex;
+  flex: 0.5;
+  flex-direction: row;
+  justify-content: flex-start;
+}
