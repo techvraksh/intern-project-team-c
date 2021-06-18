@@ -1,0 +1,26 @@
+.card{
+    padding: 10px;
+    margin: 10px;
+    /* background: linear-gradient(#ce76e4, #5798ee); */
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.heading{
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.col-md-4{
+padding: 10px;
+}
+
+.btn-primary{
+    background:linear-gradient(#e66465, #9198e5) ;
+}
+.btn-primary:hover{
+    background:#9198e5 ;
+}
