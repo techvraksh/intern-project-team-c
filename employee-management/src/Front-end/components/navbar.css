@@ -1,0 +1,17 @@
+.navbar {
+  width: 100%;
+  flex-direction: row;
+}
+.image {
+  display: flex;
+  flex: 0.7;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.user {
+  display: flex;
+  flex: 0.3;
+  flex-direction: row;
+  justify-content: flex-end;
+}

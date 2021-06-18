@@ -1,0 +1,35 @@
+.card{
+    padding: 10px;
+    margin: 10px;
+}
+
+.heading{
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.col-md-4{
+padding: 10px;
+}
+
+.btn-primary{
+    background:linear-gradient(#e66465, #9198e5) ;
+}
+.btn-primary:hover{
+    background:#9198e5 ;
+}
+
+.card-img{
+    /* width: 400px; */
+    clip-path: circle();
+}
+
+.card-info{
+    text-align: left;
+}
+
+.card-info span{
+    font-weight: bold;
+}
