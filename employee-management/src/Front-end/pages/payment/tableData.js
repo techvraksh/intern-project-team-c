@@ -6,9 +6,31 @@ const Data = [
             employeeRole: 'Web Developer',
         },
         employeeID: 'F0001',
-        employeeEmail: 'johndoe@example',
+        employeeEmail: 'johndoe@example.com',
         joinedDate: '1 Jan 2014',
         salary: `$7000`,
+    },
+    {
+        miniProfile: {
+            image: 'https://randomuser.me/api/portraits/med/women/31.jpg',
+            employeeName: 'Jeffrey Warden',
+            employeeRole: 'Android Developer',
+        },
+        employeeID: 'F0002',
+        employeeEmail: 'jeffwarden@example.com',
+        joinedDate: '10 Jan 2014',
+        salary: `$10000`,
+    },
+    {
+        miniProfile: {
+            image: 'https://randomuser.me/api/portraits/med/men/3.jpg',
+            employeeName: 'Loren Gatlin',
+            employeeRole: 'iOS Developer',
+        },
+        employeeID: 'F0003',
+        employeeEmail: 'lorengatlin@example.com',
+        joinedDate: '16 Jan 2014',
+        salary: `$11000`,
     },
 ];
 
