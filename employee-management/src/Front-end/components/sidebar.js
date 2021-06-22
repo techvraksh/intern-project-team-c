@@ -23,7 +23,7 @@ const SideBar = () => {
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link link="employees">
+        <Nav.Link href="employees" link="employees">
           <FontAwesomeIcon icon={faUserCircle} />
           <i>Employess</i>
         </Nav.Link>
@@ -35,35 +35,35 @@ const SideBar = () => {
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="payment">
+        <Nav.Link href="payments" eventKey="payment">
           <FontAwesomeIcon icon={faMoneyBill} />
           <i>Payment</i>
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="projects">
+        <Nav.Link href="projects" eventKey="projects">
           <FontAwesomeIcon icon={faTasks} />
           <i>Projects</i>
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="clients">
+        <Nav.Link href="clients" eventKey="clients">
           <FontAwesomeIcon icon={faUserSecret} />
           <i>Clients</i>
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="jobopenings">
+        <Nav.Link href="jobs" eventKey="jobopenings">
           <FontAwesomeIcon icon={faFolderOpen} />
           <i>Job Openings</i>
         </Nav.Link>
       </Nav.Item>
-      <Nav.Item>
+      {/* <Nav.Item>
         <Nav.Link eventKey="settings">
           <FontAwesomeIcon icon={faCog} />
           <i>settings</i>
         </Nav.Link>
-      </Nav.Item>
+      </Nav.Item> */}
     </Nav>
   );
 };

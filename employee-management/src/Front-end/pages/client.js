@@ -1,128 +1,135 @@
-import React from 'react';
-import './employees.css'
-import { Card, Button, Col, Container,CardImg, Row } from "react-bootstrap";
-import NavBar from '../components/navbar';
-import SideBar from '../components/sidebar';
-
+import React from "react";
+import "./employees.css";
+import { Card, Button, Col, Container, CardImg, Row } from "react-bootstrap";
+import NavBar from "../components/navbar";
+import SideBar from "../components/sidebar";
 
 const Clients = () => {
-    return (
-        <div className="employees">
-            <NavBar />
-            <SideBar />
-            <div style={{ marginLeft: "250px" }}>
-            <Container>
-                <div>
-                    <h3 className="heading">Clients</h3>
-                </div>
-                <Row md={3}>
-                    <Col md={4}>
-                        <Card>
-                            <Card.Body>
-                                <CardImg className="card-img" src="https://via.placeholder.com/100x50" ></CardImg>
-                                <Card.Title>Global Technologies</Card.Title>
-                                <Card.Subtitle>Lavender Brown</Card.Subtitle>
-                                <Card.Text>
-                                    CEO
-                                </Card.Text>
-                                <Button className="btn-primary">Message</Button>
-                                <Button className="btn-primary">View Profile</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+  return (
+    <div className="employees">
+      <NavBar />
+      <SideBar />
+      <div style={{ marginLeft: "250px" }}>
+        <Container>
+          <div>
+            <h3 className="heading">Clients</h3>
+          </div>
+          <Row md={3}>
+            <Col md={4}>
+              <Card>
+                <Card.Body>
+                  <CardImg
+                    className="card-img"
+                    src="https://via.placeholder.com/100x50"
+                  ></CardImg>
+                  <Card.Title>Global Technologies</Card.Title>
+                  <Card.Subtitle>Lavender Brown</Card.Subtitle>
+                  <Card.Text>CEO</Card.Text>
 
-                    <Col md={4}>
-                        <Card>
-                            <Card.Body>
-                                <CardImg className="card-img" src="https://via.placeholder.com/100x50" ></CardImg>
-                                <Card.Title>Global Technologies</Card.Title>
-                                <Card.Subtitle>Lavender Brown</Card.Subtitle>
-                                <Card.Text>
-                                    CEO
-                                </Card.Text>
-                                <Button className="btn-primary">Message</Button>
-                                <Button className="btn-primary">View Profile</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+                  <Button href="clientdetails" className="btn-primary">
+                    View Profile
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
 
-                    <Col md={4}>
-                        <Card>
-                            <Card.Body>
-                                <CardImg className="card-img" src="https://via.placeholder.com/100x50" ></CardImg>
-                                <Card.Title>Global Technologies</Card.Title>
-                                <Card.Subtitle>Lavender Brown</Card.Subtitle>
-                                <Card.Text>
-                                    CEO
-                                </Card.Text>
-                                <Button className="btn-primary">Message</Button>
-                                <Button className="btn-primary">View Profile</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+            <Col md={4}>
+              <Card>
+                <Card.Body>
+                  <CardImg
+                    className="card-img"
+                    src="https://via.placeholder.com/100x50"
+                  ></CardImg>
+                  <Card.Title>Global Technologies</Card.Title>
+                  <Card.Subtitle>Lavender Brown</Card.Subtitle>
+                  <Card.Text>CEO</Card.Text>
 
+                  <Button href="clientdetails" className="btn-primary">
+                    View Profile
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
 
-                </Row>
-            </Container>
+            <Col md={4}>
+              <Card>
+                <Card.Body>
+                  <CardImg
+                    className="card-img"
+                    src="https://via.placeholder.com/100x50"
+                  ></CardImg>
+                  <Card.Title>Global Technologies</Card.Title>
+                  <Card.Subtitle>Lavender Brown</Card.Subtitle>
+                  <Card.Text>CEO</Card.Text>
 
+                  <Button href="clientdetails" className="btn-primary">
+                    View Profile
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        </Container>
 
-            <Container>
-                <Row md={3}>
-                    <Col md={4}>
-                        <Card>
-                            <Card.Body>
-                                <CardImg className="card-img" src="https://via.placeholder.com/100x50" ></CardImg>
-                                <Card.Title>Global Technologies</Card.Title>
-                                <Card.Subtitle>Lavender Brown</Card.Subtitle>
-                                <Card.Text>
-                                    CEO
-                                </Card.Text>
-                                <Button className="btn-primary">Message</Button>
-                                <Button className="btn-primary">View Profile</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+        <Container>
+          <Row md={3}>
+            <Col md={4}>
+              <Card>
+                <Card.Body>
+                  <CardImg
+                    className="card-img"
+                    src="https://via.placeholder.com/100x50"
+                  ></CardImg>
+                  <Card.Title>Global Technologies</Card.Title>
+                  <Card.Subtitle>Lavender Brown</Card.Subtitle>
+                  <Card.Text>CEO</Card.Text>
 
-                    <Col md={4}>
-                        <Card>
-                            <Card.Body>
-                                <CardImg className="card-img" src="https://via.placeholder.com/100x50" ></CardImg>
-                                <Card.Title>Global Technologies</Card.Title>
-                                <Card.Subtitle>Lavender Brown</Card.Subtitle>
-                                <Card.Text>
-                                    CEO
-                                </Card.Text>
-                                <Button className="btn-primary">Message</Button>
-                                <Button className="btn-primary">View Profile</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+                  <Button href="clientdetails" className="btn-primary">
+                    View Profile
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
 
-                    <Col md={4}>
-                        <Card>
-                            <Card.Body>
-                                <CardImg className="card-img" src="https://via.placeholder.com/100x50" ></CardImg>
-                                <Card.Title>Global Technologies</Card.Title>
-                                <Card.Subtitle>Lavender Brown</Card.Subtitle>
-                                <Card.Text>
-                                    CEO
-                                </Card.Text>
-                                <Button className="btn-primary">Message</Button>
-                                <Button className="btn-primary">View Profile</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+            <Col md={4}>
+              <Card>
+                <Card.Body>
+                  <CardImg
+                    className="card-img"
+                    src="https://via.placeholder.com/100x50"
+                  ></CardImg>
+                  <Card.Title>Global Technologies</Card.Title>
+                  <Card.Subtitle>Lavender Brown</Card.Subtitle>
+                  <Card.Text>CEO</Card.Text>
 
+                  <Button href="clientdetails" className="btn-primary">
+                    View Profile
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
 
-                </Row>
-            </Container>
+            <Col md={4}>
+              <Card>
+                <Card.Body>
+                  <CardImg
+                    className="card-img"
+                    src="https://via.placeholder.com/100x50"
+                  ></CardImg>
+                  <Card.Title>Global Technologies</Card.Title>
+                  <Card.Subtitle>Lavender Brown</Card.Subtitle>
+                  <Card.Text>CEO</Card.Text>
 
-
-
-            </div>
-
-
-        </div>
-    )
-}
+                  <Button href="clientdetails" className="btn-primary">
+                    View Profile
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </div>
+  );
+};
 export default Clients;

@@ -23,7 +23,9 @@ const NavBar = () => {
           <div>
             <FontAwesomeIcon icon={faUserCircle} />
           </div>
-          <Button variant="link">Login</Button>
+          <Button href="login" variant="link">
+            Login
+          </Button>
         </div>
       </Navbar>
     </div>

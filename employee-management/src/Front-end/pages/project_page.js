@@ -36,7 +36,7 @@ const ProjectPage = () => {
                   <ListGroupItem>Number in Team:10</ListGroupItem>
                 </ListGroup>
                 <Card.Body>
-                  <Card.Link href="#">Learn More</Card.Link>
+                  <Card.Link href="projectdetail">Learn More</Card.Link>
                 </Card.Body>
               </Card>
             </Col>
@@ -55,7 +55,7 @@ const ProjectPage = () => {
                   <ListGroupItem>Number in Team:10</ListGroupItem>
                 </ListGroup>
                 <Card.Body>
-                  <Card.Link href="#">Learn More</Card.Link>
+                  <Card.Link href="projectdetail">Learn More</Card.Link>
                 </Card.Body>
               </Card>
             </Col>
@@ -74,7 +74,7 @@ const ProjectPage = () => {
                   <ListGroupItem>Number in Team:10</ListGroupItem>
                 </ListGroup>
                 <Card.Body>
-                  <Card.Link href="#">Learn More</Card.Link>
+                  <Card.Link href="projectdetail">Learn More</Card.Link>
                 </Card.Body>
               </Card>
             </Col>

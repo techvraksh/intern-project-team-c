@@ -10,7 +10,7 @@ const SignupPage = () => {
         <Row>
           <Col>
             <div className="name">
-              <h3>Product Name</h3>
+              <h3 href="home">Product Name</h3>
             </div>
           </Col>
         </Row>

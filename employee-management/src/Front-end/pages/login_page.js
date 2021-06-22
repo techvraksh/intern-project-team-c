@@ -10,13 +10,15 @@ const LoginPage = () => {
         <Row>
           <Col xs={6}>
             <div className="name">
-              <h3>Product Name</h3>
+              <h3 href="home">Product Name</h3>
             </div>
           </Col>
           <Col xs={6}>
             <div className="signup">
               <h6 style={{ fontWeight: "lighter" }}>New User?</h6>
-              <Button variant="link">Sign Up</Button>
+              <Button href="signup" variant="link">
+                Sign Up
+              </Button>
             </div>
           </Col>
         </Row>

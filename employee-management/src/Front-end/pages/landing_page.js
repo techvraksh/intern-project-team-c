@@ -15,7 +15,7 @@ const LandingPage = () => {
 
           <Col>
             <div className="project_name">
-              <h1>Employee management System</h1>
+              <h1 href="home">Employee management System</h1>
             </div>
           </Col>
         </Row>
@@ -60,7 +60,9 @@ const LandingPage = () => {
                 justifyContent: "center",
               }}
             >
-              <Button variant="primary">Employee</Button>
+              <Button href="employee" variant="primary">
+                Employee
+              </Button>
             </div>
           </Col>
           <Col>
@@ -71,7 +73,9 @@ const LandingPage = () => {
                 justifyContent: "center",
               }}
             >
-              <Button variant="primary">Admin</Button>
+              <Button href="admin" variant="primary">
+                Admin
+              </Button>
             </div>
           </Col>
         </Row>
