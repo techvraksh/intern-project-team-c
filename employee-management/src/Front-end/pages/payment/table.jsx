@@ -10,7 +10,13 @@ import PaymentSlip from './paymentSlip';
 const TableData = () => {
     return (
         <>
-            <Table striped bordered responsive hover className='mt-4 '>
+            <Table
+                striped
+                bordered
+                hover
+                className='mt-4 col-md-10'
+                style={{ marginLeft: '230px', overflowX: 'hidden' }}
+            >
                 <thead className='px-auto'>
                     <tr>
                         <th>Employee</th>

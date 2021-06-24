@@ -1,12 +1,19 @@
 import React from 'react';
 
 import Table from 'react-bootstrap/Table';
+import NavBar from '../../components/navbar';
+import SideBar from '../../components/sidebar';
 import JobStatus from './jobStatus';
 
 const JobsOpening = () => {
     return (
         <>
-            <Table className='table mt-4' style={{ fontSize: '0.90rem' }}>
+            <NavBar />
+            <SideBar />
+            <Table
+                className='table mt-4 col-md-10'
+                style={{ fontSize: '0.90rem', marginLeft: '230px' }}
+            >
                 <thead>
                     <tr>
                         <th scope='col'>Job Title</th>

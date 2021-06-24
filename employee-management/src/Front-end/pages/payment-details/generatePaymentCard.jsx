@@ -5,7 +5,7 @@ import { Card, ListGroup } from 'react-bootstrap';
 const GeneratePaymentCard = () => {
     return (
         <>
-            <Card>
+            <Card className='col-md-10' style={{ marginLeft: '230px' }}>
                 <Card.Title
                     className='text-center mt-3'
                     style={{ textTransform: 'uppercase' }}
