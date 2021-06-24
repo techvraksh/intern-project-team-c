@@ -1,15 +1,19 @@
-import React from "react";
-import JobsOpening from "../job-openings/jobs";
-import GeneratePaymentCard from "../payment-details/generatePaymentCard";
-import TableData from "./table";
+import React from 'react';
+
+import NavBar from '../../components/navbar';
+import SideBar from '../../components/sidebar';
+import GeneratePaymentCard from '../payment-details/generatePaymentCard';
+import TableData from './table';
 
 const Payment = () => {
-  return (
-    <>
-      <TableData />
-      <GeneratePaymentCard />
-    </>
-  );
+    return (
+        <>
+            <NavBar />
+            <SideBar />
+            <TableData />
+            <GeneratePaymentCard />
+        </>
+    );
 };
 
 export default Payment;
